@@ -1,0 +1,56 @@
+body,html{
+    height: 100%;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.alertMask{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(100, 100, 100, 0.5);
+   
+}
+.alertMask .alert{
+    display: none; 
+    text-align: center;
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    transform: translateY(-50px);
+    background-color: black;
+ }
+.alertMask .title{
+    background-color: red;
+    width: max-content;
+    margin:10px auto;
+    color: white;
+    user-select: none;
+    padding:5px 10px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.alertMask .title span{
+    float: right;
+    cursor: pointer;
+
+}
+.alertMask .content{
+    height: 60%;
+    margin-top: 20px;
+    color: white;
+}
+
+.alertMask .confirm span{
+    cursor: pointer;
+    margin: 40px;
+    color: white;
+}

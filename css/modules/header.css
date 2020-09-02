@@ -1,0 +1,17 @@
+nav .navbar-brand {
+  overflow: hidden;
+  position: relative; }
+
+nav .logo {
+  transform: translateY(-45%);
+  height: 100px;
+  transition: 0.1s; }
+  nav .logo:hover {
+    transform: scale(1.2) translateY(-35%);
+    transition: 0.1s; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }

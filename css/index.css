@@ -1,0 +1,27 @@
+@import url(/css/modules/footer.css);
+@import url(/css/modules/header.css);
+@import url(/css/modules/default.css);
+#carousel1 .carousel-item {
+  height: 400px;
+  overflow: hidden; }
+  #carousel1 .carousel-item img {
+    width: 400px; }
+
+.container .list-unstyled li {
+  padding: 3px; }
+  .container .list-unstyled li .video-block {
+    height: 100px; }
+
+.container .videos-zone {
+  margin: 20px 0px; }
+  .container .videos-zone .card {
+    margin: 0px 10px; }
+    .container .videos-zone .card .card-img-overlay {
+      opacity: 0;
+      transition: opacity  1s;
+      background-color: #888888; }
+    .container .videos-zone .card:hover .card-img-overlay {
+      opacity: 0.7;
+      transition: opacity  1s; }
+    .container .videos-zone .card a {
+      color: white; }

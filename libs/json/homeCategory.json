@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "挑选礼物",
+    "content": "LOVE GIFT",
+    "desc": "挑选她的礼物",
+    "src": "/images/c01.jpg"
+  },
+  {
+    "id": 2,
+    "title": "手镯",
+    "content": "MARRIAGE DIAMOND RING",
+    "desc": "寻找属于你们的爱情故事",
+    "src": "/images/c02.jpg"
+  },
+  {
+    "id": 3,
+    "title": "签署证书",
+    "content": "LOVE CUSTOM",
+    "desc": "签署真爱承诺，锁定一生挚爱",
+    "src": "/images/c03.jpg"
+  }
+]

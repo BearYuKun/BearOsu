@@ -1,0 +1,10 @@
+@import url(/css/modules/footer.css);
+@import url(/css/modules/header.css);
+@import url(/css/modules/default.css);
+.video-container {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 0px auto; }
+  .video-container video {
+    margin: 0px auto; }

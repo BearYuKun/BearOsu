@@ -1,0 +1,18 @@
+footer {
+  background-image: url(../images/page-000.png); }
+  footer .container {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    footer .container a {
+      text-decoration: none; }
+    footer .container ul {
+      margin-top: 20px; }
+      footer .container ul a:hover {
+        color: #fac; }
+    footer .container p {
+      width: 100%;
+      text-align: center; }
+      footer .container p i {
+        margin: 10px; }
