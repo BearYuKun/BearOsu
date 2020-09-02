@@ -1,7 +1,7 @@
 "use strict";
 
 require.config({
-  baseUrl: '/',
+  baseUrl: 'https://bearyukun.github.io/BearOsu/',
   paths: {
     jquery: 'libs/jquery/jquery-1.11.3.min',
     bootstrap: 'libs/bootstrap/js/bootstrap4.bundle.min',
